@@ -24,7 +24,7 @@ export function Header({ title, subtitle }: HeaderProps) {
 
   return (
     <div className="  border-border sticky top-0 z-40">
-      <div className="flex flex-wrap items-center justify-between p-5.5 gap-4">
+      <div className="flex flex-wrap items-center justify-between px-5.5 py-7 gap-4">
         <div className='md:ml-0 ml-10'>
           <h1 className="text-3xl font-bold text-white">{title}</h1>
           {subtitle && <p className="text-base text-muted-foreground">{subtitle}</p>}

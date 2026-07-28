@@ -177,7 +177,7 @@ export default function Dashboard() {
           {/* Recent Activity */}
           <div>
             <div className="bg-card border border-border rounded-lg overflow-hidden">
-              <div className="px-6 py-5 ">
+              <div className="px-6 py-3 ">
                 <h2 className="text-lg font-bold text-white">
                   Recent Activity
                 </h2>
@@ -191,7 +191,7 @@ export default function Dashboard() {
                   return (
                   <div
                     key={activity.id}
-                    className="p-4 hover:bg-secondary/50 transition-colors"
+                    className="px-4 py-3 hover:bg-secondary/50 transition-colors"
                   >
                     <div className="flex gap-3">
                       <div
